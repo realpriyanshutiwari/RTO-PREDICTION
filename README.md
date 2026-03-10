@@ -8,7 +8,7 @@ Our advanced machine learning analysis successfully developed a robust RTO (Retu
 
 ## 1. Model Performance Results
 
-### **🏆 Best Model: Gradient Boosting**
+### ** Best Model: Gradient Boosting**
 
 | Metric | Performance | Business Impact |
 |--------|-------------|-----------------|
@@ -17,7 +17,7 @@ Our advanced machine learning analysis successfully developed a robust RTO (Retu
 | **ROC-AUC** | 73.33% | Strong discrimination between RTO and on-time deliveries |
 | **Cross-Validation** | 70.66% ± 1.42% | Robust performance across different data subsets |
 
-### **📊 Complete Model Comparison**
+### ** Complete Model Comparison**
 
 | Rank | Model | F1-Score | Accuracy | ROC-AUC | CV Performance |
 |------|-------|----------|----------|---------|----------------|
@@ -33,7 +33,7 @@ Our advanced machine learning analysis successfully developed a robust RTO (Retu
 
 ## 2. Feature Importance Analysis
 
-### **🔍 Top 15 Most Important Features**
+### ** Top 15 Most Important Features**
 
 | Rank | Feature | Importance | Business Interpretation |
 |------|---------|------------|------------------------|
@@ -48,7 +48,7 @@ Our advanced machine learning analysis successfully developed a robust RTO (Retu
 | 9 | **Customer_care_calls** | 1.71% | Customer service interactions indicate issues |
 | 10 | **Customer_rating** | 0.40% | Customer satisfaction has minimal impact |
 
-### **💡 Critical Business Insights**
+### ** Critical Business Insights**
 
 1. **Weight is the #1 RTO Driver**: 27.51% importance indicates heavy packages are primary return triggers
 2. **Discount Strategy Impact**: 27.44% importance shows discount policies significantly affect returns
@@ -59,7 +59,7 @@ Our advanced machine learning analysis successfully developed a robust RTO (Retu
 
 ## 3. Advanced Visualizations and Analysis
 
-### **📈 Model Performance Comparison**
+### ** Model Performance Comparison**
 
 The visualization shows:
 - **Gradient Boosting** leads in F1-Score and ROC-AUC
@@ -67,7 +67,7 @@ The visualization shows:
 - **Logistic Regression** struggles with complex patterns but has good ROC-AUC
 - **Ensemble methods** (Random Forest, Extra Trees) show consistent performance
 
-### **🎯 Precision-Recall Analysis**
+### ** Precision-Recall Analysis**
 
 Key findings:
 - **Gradient Boosting** achieves the best precision-recall balance
@@ -75,7 +75,7 @@ Key findings:
 - **Steep curves** indicate good model discrimination
 - **Area under curves** confirms strong predictive power
 
-### **🔥 Feature Importance Heatmap**
+### ** Feature Importance Heatmap**
 
 Visualization reveals:
 - **Weight and discount** dominate feature importance
@@ -87,7 +87,7 @@ Visualization reveals:
 
 ## 4. Business Problem Context and Interpretation
 
-### **🎯 Problem Statement Alignment**
+### ** Problem Statement Alignment**
 
 **Original Problem**: Predict RTO risk to reduce operational costs and improve customer satisfaction
 
@@ -97,7 +97,7 @@ Visualization reveals:
 - ✅ **Feature insights** for targeted interventions
 - ✅ **Production-ready model** with hyperparameter optimization
 
-### **💰 Business Impact Analysis**
+### ** Business Impact Analysis**
 
 | Intervention Area | Potential Impact | Implementation Strategy |
 |------------------|------------------|------------------------|
@@ -106,7 +106,7 @@ Visualization reveals:
 | **Cost-Weight Optimization** | Medium (15.14% importance) | Product bundling, shipping cost optimization |
 | **Customer Segmentation** | Medium (3.98% importance) | Targeted marketing, loyalty programs |
 
-### **📊 ROI Projections**
+### ** ROI Projections**
 
 Based on model performance:
 - **Precision**: 68.75% means 69% of predicted RTOs are actual returns
@@ -118,14 +118,14 @@ Based on model performance:
 
 ## 5. Trends and Patterns Identified
 
-### **📈 Key Trends**
+### ** Key Trends**
 
 1. **Weight-Discount Correlation**: Heavier items with higher discounts show highest RTO rates
 2. **Customer Experience Pattern**: Prior purchases matter more than current ratings
 3. **Cost Threshold Effect**: Products above certain cost-weight ratios have exponential RTO risk
 4. **Service Interaction Signal**: Customer care calls indicate underlying delivery issues
 
-### **🔄 Pattern Analysis**
+### ** Pattern Analysis**
 
 - **Non-linear Relationships**: Gradient Boosting captures complex feature interactions
 - **Feature Interactions**: Cost_Weight_Ratio (15.14%) shows combined effects
@@ -142,7 +142,7 @@ Based on model performance:
 
 ## 6. Justification for Analysis Methods
 
-### **🔬 Statistical Justification**
+### ** Statistical Justification**
 
 | Method | Justification | Alternative Considered |
 |--------|---------------|------------------------|
@@ -151,7 +151,7 @@ Based on model performance:
 | **Hyperparameter Tuning** | GridSearchCV with 5-fold CV | Random search (less systematic) |
 | **F1-Score Metric** | Balanced for imbalanced RTO data | Accuracy (biased toward majority class) |
 
-### **📊 Visualization Justification**
+### ** Visualization Justification**
 
 | Chart Type | Purpose | Business Value |
 |------------|---------|----------------|
@@ -160,7 +160,7 @@ Based on model performance:
 | **Precision-Recall Curves** | Show prediction quality | Optimize threshold for business needs |
 | **Performance Comparison** | Rank models | Make informed model selection |
 
-### **🎯 Method Selection Rationale**
+### ** Method Selection Rationale**
 
 1. **Ensemble Methods**: Better performance than individual models
 2. **Feature Engineering**: Captures complex business relationships
@@ -171,7 +171,7 @@ Based on model performance:
 
 ## 7. Logical Flow and Process Validation
 
-### **🔄 Analysis Process Flow**
+### ** Analysis Process Flow**
 
 ```
 1. Data Loading → 2. Preprocessing → 3. Feature Engineering → 
@@ -179,7 +179,7 @@ Based on model performance:
 7. Feature Analysis → 8. Business Interpretation
 ```
 
-### **✅ Process Validation**
+### ** Process Validation**
 
 - **Data Quality**: 10,999 records, 0 missing values, clean dataset
 - **Feature Engineering**: 4 new features with 15.14% combined importance
@@ -187,7 +187,7 @@ Based on model performance:
 - **Performance Validation**: Cross-validation confirms robust results
 - **Business Relevance**: Features align with logistics domain knowledge
 
-### **🎯 Problem-Solution Alignment**
+### ** Problem-Solution Alignment**
 
 | Problem Component | Solution Delivered | Validation |
 |------------------|-------------------|------------|
@@ -200,14 +200,14 @@ Based on model performance:
 
 ## 8. Conclusion and Recommendations
 
-### **🏆 Key Achievements**
+### ** Key Achievements**
 
 1. **High-Performance Model**: 68.75% F1-Score with 73.33% ROC-AUC
 2. **Actionable Insights**: Weight and discount are primary RTO drivers
 3. **Production Ready**: Optimized hyperparameters and robust validation
 4. **Business Impact**: Clear ROI projections and intervention strategies
 
-### **📋 Strategic Recommendations**
+### ** Strategic Recommendations**
 
 1. **Immediate Actions**:
    - Implement special handling for packages > 2000g
@@ -224,7 +224,7 @@ Based on model performance:
    - Continuous model retraining with new data
    - Expand feature set with additional business metrics
 
-### **🎯 Success Metrics**
+### ** Success Metrics**
 
 - **Model Performance**: Maintain F1-Score > 65%
 - **Business Impact**: Reduce RTO rates by 15-25%
